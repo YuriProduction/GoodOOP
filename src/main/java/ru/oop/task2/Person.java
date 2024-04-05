@@ -13,5 +13,10 @@ interface Person extends Positioned {
      *
      * @param destination место назначения
      */
-    void walk(Position destination);
+    Position walk(Position destination);
+
+    /** Идет из своей позиции к транспорту
+     * @param position
+     */
+    Position goToTransportPlace(Position position);
 }

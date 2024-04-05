@@ -1,5 +1,4 @@
 package ru.oop.task2;
-
 /**
  * <b>Задача 2:</b><br>
  * Добраться человеку до заданного места.<br>
@@ -25,8 +24,13 @@ public class MainTask2 {
      * Переехать из текущего места в заданную точку
      * на любом, заранее определённом транспорте
      */
-    public static void moveTo(Person person, Position destination) {
-        // TODO
+    public static void moveTo(Person person, Position destination,PersonTransport ourTransport) {
+        person.walk(ourTransport.getPosition());
+        Position positionAfterMove = ourTransport.go(person, destination);
+        if (!positionAfterMove.equals(destination))
+            person.walk(destination);
         assert person.getPosition() == destination;
     }
 }
+
+

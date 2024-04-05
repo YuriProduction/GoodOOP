@@ -11,6 +11,7 @@ public interface Person {
     /**
      * Текущее местоположение
      */
+    boolean atHome();
     Position getPosition();
 
     /**
@@ -19,4 +20,5 @@ public interface Person {
      * @param destination место назначения
      */
     void walk(Position destination);
+
 }
