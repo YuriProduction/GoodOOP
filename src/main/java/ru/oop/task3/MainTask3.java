@@ -1,12 +1,7 @@
 package ru.oop.task3;
 
-import ru.oop.task2.PersonTransport;
-import ru.oop.task3.Transport.Airplane;
-import ru.oop.task3.Transport.Bus;
-import ru.oop.task3.Transport.Car;
 import ru.oop.task3.Transport.IPersonTransport;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
