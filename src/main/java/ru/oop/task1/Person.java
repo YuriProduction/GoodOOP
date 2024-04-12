@@ -6,7 +6,8 @@ package ru.oop.task1;
  * @author vpyzhyanov
  * @since 21.10.2020
  */
-public interface Person {
+interface Person
+{
 
     /**
      * Текущее местоположение
@@ -19,4 +20,5 @@ public interface Person {
      * @param destination место назначения
      */
     void walk(Position destination);
+
 }
