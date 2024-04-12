@@ -1,8 +1,4 @@
-package ru.oop.task3.Transport;
-
-import ru.oop.task3.IPersonTransport;
-import ru.oop.task3.Person;
-import ru.oop.task3.Position;
+package ru.oop.task3;
 
 /**
  * Машина
