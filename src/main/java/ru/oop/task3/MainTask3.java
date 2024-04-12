@@ -1,7 +1,5 @@
 package ru.oop.task3;
 
-import ru.oop.task3.Transport.IPersonTransport;
-
 import java.util.List;
 
 /**

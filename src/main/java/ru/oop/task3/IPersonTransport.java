@@ -1,8 +1,4 @@
-package ru.oop.task3.Transport;
-
-import ru.oop.task3.Person;
-import ru.oop.task3.Position;
-import ru.oop.task3.Positioned;
+package ru.oop.task3;
 
 /**
  * Транспорт, предоставленный человеку

@@ -11,6 +11,6 @@ public class Car
      */
     public Position go(Person person,Position destination)
     {
-        throw new RuntimeException("Not implemented");
+
     }
 }

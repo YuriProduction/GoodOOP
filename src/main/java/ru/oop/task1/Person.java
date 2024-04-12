@@ -6,12 +6,12 @@ package ru.oop.task1;
  * @author vpyzhyanov
  * @since 21.10.2020
  */
-public interface Person {
+interface Person
+{
 
     /**
      * Текущее местоположение
      */
-    boolean atHome();
     Position getPosition();
 
     /**
